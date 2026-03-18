@@ -1,0 +1,15 @@
+package fundamentos_de_la_programacion;
+
+import javax.swing.JOptionPane;
+
+public class tarea13_ejrc4_cuadrotexto {
+    public static void main(String[] args) {
+        int n1 = Integer.parseInt(JOptionPane.showInputDialog("Introduce un número:"));
+        int n2 = Integer.parseInt(JOptionPane.showInputDialog("Introduce otro número:"));
+        if (n1 == n2) {
+            JOptionPane.showMessageDialog(null, "Son iguales");
+        } else {
+            JOptionPane.showMessageDialog(null, "No son iguales");
+        }
+    }
+}

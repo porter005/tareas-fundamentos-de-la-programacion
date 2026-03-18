@@ -1,0 +1,12 @@
+Algoritmo Ejercicio08
+    Leer n1, n2
+    Si n1 == n2 Entonces
+        Escribir "Son iguales"
+    Sino
+        Si n1 > n2 Entonces
+            Escribir n1, " es mayor"
+        Sino
+            Escribir n2, " es mayor"
+        FinSi
+    FinSi
+FinAlgoritmo
